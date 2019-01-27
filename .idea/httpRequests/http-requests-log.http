@@ -1,0 +1,24 @@
+GET http://localhost:8089/user/1
+
+<> 2018-12-24T040327.401.json
+
+###
+
+GET http://localhost:8089/user/1
+
+<> 2018-12-24T040231.401.json
+
+###
+
+GET http://localhost:8089/{PUT%20/user/{id:\d+}}
+
+###
+
+GET http://localhost:8089/{GET%20/user}
+
+###
+
+GET http://localhost:8089/{GET%20/user/{id:\d+}}
+
+###
+
